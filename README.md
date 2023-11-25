@@ -12,23 +12,26 @@ Attributes & Notes:
 
 ### API Call 1: JSONPlaceholder API
 
+#### Query Params:
 
- #### Query Params:
+- **Endpoint:**
+  - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/posts?Content-Type=application/json)
 
+- **Key:**
+  - `Content-Type`
 
- GET [https://jsonplaceholder.typicode.com/posts?Content-Type=application/json]
+- **Value:**
+  - `application/json`
 
-
- - Key: `Content-Type`
- - Value: `application/json`
-
-
-### API Call 2:  JSONPlaceholder TO DO API
-
-
-GET [https://jsonplaceholder.typicode.com/todos?userId=2]
-
+### API Call 2: JSONPlaceholder TO DO API
 
 #### Query Params:
-- Key: `userId`
-  - Value: `2` 
+
+- **Endpoint:**
+  - [JSONPlaceholder TO DO API](https://jsonplaceholder.typicode.com/todos?userId=2)
+
+- **Key:**
+  - `userId`
+
+- **Value:**
+  - `2`
